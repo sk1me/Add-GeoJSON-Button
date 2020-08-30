@@ -1,0 +1,53 @@
+html,
+body,
+#map {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nicebox {
+  position: absolute;
+  display: block;
+  text-align: left;
+  font-family: "Product Sans", Arial, sans-serif;
+  font-size: 17.8px;
+  font-style: normal;
+  font-weight: 500;
+  color: #4d4d4d;
+  z-index: 5;
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.35);
+  padding: 3px 10px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  border: rgb(229, 229, 229) 1px solid;
+  border-radius: 2px;
+}
+
+.nicebox:hover {
+  background: #fafafa;
+}
+
+#add_geojson_b {
+  top: 60px;
+  left: 10px;
+  width: 149px;
+  height: auto;
+}
+
+input[type="file"] {
+    display: none;
+}
+.add_geojson_button {
+    border: 0px solid rgb(190, 190, 190);
+    border-radius: 2px;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
