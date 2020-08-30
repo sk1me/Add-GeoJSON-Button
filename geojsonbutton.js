@@ -1,5 +1,5 @@
 /*
-Code prebared by sk1me on 20.08.2020
+Code prepared by sk1me on 20.08.2020
 https://github.com/sk1me/Add-GeoJSON-Button
 */
 
